@@ -15,8 +15,8 @@ This is a simple implementation of the **RSA algorithm** following the textbook 
 
 # 📄 Usage
 - Generate RSA public and private keys  
-- Encrypt `text.txt` into `cipher.dat`  
-- Decrypt `cipher.dat` back into `decrypted.txt`
+- Encrypt `<file>` into `cipher.dat`  
+- Decrypt `cipher.dat` back into `<file>`
 
 ---  
 Made with ❤️!
