@@ -42,5 +42,5 @@ if __name__ == "__main__":
     print("Public Key:", public_key)
     print("Private Key:", private_key)
 
-    encrypt_file("text.txt", "cipher.dat", public_key)
-    decrypt_file("cipher.dat", "decrypted.txt", private_key)
+    encrypt_file("./Test/audio.mp3", "./Test_Result/cipher.dat", public_key)
+    decrypt_file("./Test_Result/cipher.dat", "./Test_Result/decrypted.mp3", private_key)
